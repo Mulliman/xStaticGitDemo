@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Home - Umbraco Sample Site 2</title>
+    <title>Todo list for the Starter Kit - Umbraco Sample Site 2</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <meta property="og:url" content="http://https://mulliman.github.io/xStaticGitDemo//" />
+    <meta property="og:url" content="http://https://mulliman.github.io/xStaticGitDemo//about-us/todo-list-for-the-starter-kit/" />
 
     <link rel="stylesheet" href="/css/umbraco-starterkit-style.css" />
     
@@ -21,10 +21,10 @@
         <nav class="nav-bar">
             
 <!-- comment out the following line if you want to remove the root node name from the top navigation -->
-<a class="nav-link navi-link--active" href="/">Home</a>
+<a class="nav-link " href="/">Home</a>
     <a class="nav-link" href="/products/">Products</a>
     <a class="nav-link" href="/people/">People</a>
-    <a class="nav-link" href="/about-us/">About Us</a>
+    <a class="nav-link nav-link--active" href="/about-us/">About Us</a>
     <a class="nav-link" href="/blog/">Blog</a>
     <a class="nav-link" href="/contact/">Contact</a>
     <a class="nav-link" href="/new-page/">New Page</a>
@@ -42,10 +42,10 @@
         <nav class="nav-bar top-nav">
             
 <!-- comment out the following line if you want to remove the root node name from the top navigation -->
-<a class="nav-link navi-link--active" href="/">Home</a>
+<a class="nav-link " href="/">Home</a>
     <a class="nav-link" href="/products/">Products</a>
     <a class="nav-link" href="/people/">People</a>
-    <a class="nav-link" href="/about-us/">About Us</a>
+    <a class="nav-link nav-link--active" href="/about-us/">About Us</a>
     <a class="nav-link" href="/blog/">Blog</a>
     <a class="nav-link" href="/contact/">Contact</a>
     <a class="nav-link" href="/new-page/">New Page</a>
@@ -63,19 +63,30 @@
 
     <main>
         
-<section class="section section--full-height background-image-full overlay overlay--dark section--content-center section--thick-border"
-         style="background-image: url('/media/y5ch0f2d/16403439029_f500be349b_o.jpg')">
+
+<section class="section section--themed section--header section--content-center-bottom">
     <div class="section__hero-content">
-        <h1>Hello World, this was deployed using git!</h1>
-        <p class="section__description">Here is some content changed in Umbraco.</p>
-            <a class="button button--border--solid" href="/products/">
-                Buy stuff
-            </a>
+        <h1 class="no-air">Things to improve</h1>
     </div>
 </section>
 
-<section class="section section">
-    
+<section class="section">
+
+    <div class="container">
+
+        <div class="col-md-3">
+            <nav class="nav-bar nav-bar--list">
+                
+
+    <a class="nav-link nav-link--black nav-link--air-bottom" href="/about-us/about-this-starter-kit-changed-back/">About this Starter Kit changed back</a>
+    <a class="nav-link nav-link--black nav-link--air-bottom nav-link--active" href="/about-us/todo-list-for-the-starter-kit/">Todo list for the Starter Kit</a>
+
+            </nav>
+        </div>
+
+        <div class="col-md-9">
+            <article>
+                
 
 
     <div class="umb-grid">
@@ -86,42 +97,28 @@
                 <div >
                             
     
-
-    
-        <div class="blogposts">
-
-                <a href="/blog/another-one/" class="blogpost">
-                    <div class="blogpost-meta">
-                        <small class="blogpost-date">12/5/2020</small>
-                        <small class="blogpost-cat">
-                                <!-- TODO: Add links to categories-->
-cg16     
-    <!-- TODO: Add links to categories-->
-codegarden     
-    <!-- TODO: Add links to categories-->
-umbraco     
-
-                        </small>
-                    </div>
-                    <h3 class="blogpost-title">Now it gets exciting</h3>
-                    <div class="blogpost-excerpt">Donec sollicitudin molestie malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh.</div>
-                </a>
-                <a href="/blog/this-will-be-great/" class="blogpost">
-                    <div class="blogpost-meta">
-                        <small class="blogpost-date">12/5/2020</small>
-                        <small class="blogpost-cat">
-                                <!-- TODO: Add links to categories-->
-great     
-    <!-- TODO: Add links to categories-->
-umbraco     
-
-                        </small>
-                    </div>
-                    <h3 class="blogpost-title">This will be great</h3>
-                    <div class="blogpost-excerpt">Proin eget tortor risus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed</div>
-                </a>
-        </div>
-    
+<p>Here's what could be improved in the Starter Kit so far:</p>
+<p> </p>
+<p>For v1:</p>
+<ul>
+<li>Use a custom grid editor for testimonials</li>
+<li>Integrated Analytics on pages</li>
+<li>Call To Action Button in the grid (with "Tag Manager" integration)</li>
+<li>Macro for fetching products (with friendly grid preview)</li>
+<li>Design Review (polish)</li>
+<li>Verify licenses of photos (Niels)</li>
+</ul>
+<p>For vNext</p>
+<ul>
+<li><span style="text-decoration: line-through;">Swap text with uploaded logo</span></li>
+<li>Nicer pickers of products and employees</li>
+<li>Custom Listview for products and employees</li>
+<li>Discus template on blog posts</li>
+<li>404 template</li>
+<li>Member Login/Register/Profile/Forgot password</li>
+<li>Update default styling of grid header</li>
+<li>On a Blog post -&gt; Share/Social (tweet this / facebook this)</li>
+</ul>
 
 
                 </div>
@@ -132,24 +129,7 @@ umbraco
 
 
 
-</section>
-
-
-<section class="section section--themed">
-
-    <div class="container">
-        <div class="row">
-
-            <div class="ta-center">
-                <h2>Umbraco Demo on Netlify</h2>
-                <p class="section__description mw-640 ma-h-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat</p>
-
-                <a class="button button--border--light_solid" href="/blog/">
-                    Read All on the Blog
-                </a>
-
-            </div>
-
+            </article>
         </div>
     </div>
 
